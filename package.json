@@ -1,0 +1,29 @@
+{
+  "name": "markdown-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "tsc && webpack index.js dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.5",
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.5",
+    "markdown-to-html-pipe": "^1.0.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.14"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "0.0.29",
+    "@types/marked": "0.0.27",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.2"
+  }
+}
